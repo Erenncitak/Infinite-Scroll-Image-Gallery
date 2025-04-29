@@ -57,7 +57,7 @@ function setAttribute(element, attributes) {
 }
 
 window.addEventListener('scroll', () => {
-    console.log("Tetiklendi");
+    // console.log("Tetiklendi");
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000 && isDownloaded) {
         getImages();
     }
